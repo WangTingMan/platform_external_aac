@@ -425,7 +425,7 @@
       <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\libFDK/include;$(SolutionDir)..\libMpegTPDec/include;$(SolutionDir)..\libSYS\include;$(SolutionDir)..\libSBRdec/include;$(SolutionDir)..\libPCMutils/include;$(SolutionDir)..\libDRCdec/include;$(SolutionDir)..\libAACdec/include;$(SolutionDir)..\libArithCoding/include/;$(SolutionDir)..\libSACdec/include;$(SolutionDir)..\libMpegTPEnc/include;$(SolutionDir)..\libAACenc/include;$(SolutionDir)..\libSBRenc/include;$(SolutionDir)..\libSACenc/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\libFDK/include;$(ProjectDir)..\libMpegTPDec/include;$(ProjectDir)..\libSYS\include;$(ProjectDir)..\libSBRdec/include;$(ProjectDir)..\libPCMutils/include;$(ProjectDir)..\libDRCdec/include;$(ProjectDir)..\libAACdec/include;$(ProjectDir)..\libArithCoding/include/;$(ProjectDir)..\libSACdec/include;$(ProjectDir)..\libMpegTPEnc/include;$(ProjectDir)..\libAACenc/include;$(ProjectDir)..\libSBRenc/include;$(ProjectDir)..\libSACenc/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4251</DisableSpecificWarnings>
     </ClCompile>
     <Link>
